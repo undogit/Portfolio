@@ -1,0 +1,104 @@
+/* Début Maintenance*/
+
+.maintenance{
+    background-image: url("../image/maintenance.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 720px;
+    margin-left:0 !important;
+    margin-right: 0 !important;
+}
+.maintenance h1{
+    font-size: 40px;
+   text-align: center;
+}
+
+/* fin Maintenance*/
+
+
+@font-face {
+    font-family: 'lemondrop';
+    src: url('../fonts/lemondrop.eot');
+    src: url('../fonts/lemondrop.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lemondrop.woff2') format('woff2'),
+    url('../fonts/lemondrop.woff') format('woff'),
+    url('../fonts/lemondrop.ttf') format('truetype'),
+    url('../fonts/lemondrop.svg#star_avenueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #080808 ;
+    background-image: url('../image/papercraft.png')!important;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    z-index: 1000;
+}
+.navbar-brand{
+    font-family: 'lemondrop';
+    color: #011b2e !important;
+}
+.navbar-brand::first-letter{
+    font-size: 20px;
+    color: #f28a22 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "lemondrop", Arial, sans-serif ;
+}
+
+#slider{
+    margin-top: 150px;
+}
+
+section{
+margin: 50px 0 50px 0 ;
+
+}
+.container{
+   /* min-width: 1200px !important;*/
+}
+.deco
+{
+
+}
+
+.hobbies
+{
+    margin-bottom: 5%;
+}
+
+.h1_font_color
+{
+    color: #ffffff;
+    font-variant: small-caps;
+}
+.brown_id
+{
+    background: #48271B;
+    color: #f6f2d7;
+}
+
+.photo_id
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    border: solid;
+}
+
+.curvy_box
+{
+    border-radius: 20px;
+}
+
+.hobbies{
+    min-height: 150px !important;
+    border: solid 1px black;
+}
+
+
