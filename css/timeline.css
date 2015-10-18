@@ -10,8 +10,7 @@
     position: absolute;
     content: " ";
     width: 6px;
-    background-color: #60c4e2;
-    opacity: 0.7;
+    background-color: #f28a22;
     left: 50%;
     margin-left: -1.5px;
 }
@@ -46,7 +45,6 @@
     float: left;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
-    padding: 20px;
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -129,8 +127,8 @@
     background-color: #d9534f !important;
 }
 
-.timeline-badge.info {
-    background-color: #5bc0de !important;
+.timeline-badge {
+    background-color: #f28a22 !important;
 }
 
 .timeline-title {

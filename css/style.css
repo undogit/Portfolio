@@ -6,8 +6,8 @@
     background-size: cover;
     width: 100%;
     min-height: 720px;
-    margin-left:0 !important;
-    margin-right: 0 !important;
+    margin-left:10px !important;
+    margin-right:10px !important;
 }
 .maintenance h1{
     font-size: 40px;
@@ -27,20 +27,15 @@
     url('../fonts/lemondrop.svg#star_avenueregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
-
-
-
 }
 
 body{
+    color: #dcdcdc;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: #e6e6e5;
-    background-image: url('../image/noisy-texture-200x200transparent.png')!important;
+    background-color: #374b4a;
     background-repeat: repeat;
     background-attachment: fixed;
-    z-index: 1000;
 }
 .navbar-brand{
     font-family: 'lemondrop';
@@ -50,75 +45,148 @@ body{
     font-size: 20px;
     color: #f28a22 !important;
 }
-
 h1,h2,h3,h4,h5,h6{
     font-family: "lemondrop", Arial, sans-serif ;
+    margin-bottom: 50px;
 }
+h2::before, h2::after{
+    display: inline;
+    content: "/";
+    color: #f28a22;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 
 #slider{
-    margin-top: 150px;
+    background-image: url("../image/maintenance.png");
+    background-size: cover;
+    margin: auto;
+    width:100%;
+    min-height: 100%;
+}
+section {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
-section{
-margin: 50px 0 50px 0 ;
+#about h5, #about img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about img{
+    border: 4px solid  #f58f47;
 
 }
-.container{
-   /* min-width: 1200px !important;*/
+#about p{
+    padding: 10px;
 }
-.deco
-{
+
+.orange_box_up{
+    background-color: #536e6d;
+    -webkit-box-shadow: 10px 10px 0 0 #f58f47 ,
+    9px 9px 0 0 #f58f47 ,
+    8px 8px 0 0 #f58f47 ,
+    7px 7px 0 0 #f58f47 ,
+    6px 6px 0 0 #f58f47 ,
+    5px 5px 0 0 #f58f47 ,
+    4px 4px 0 0 #f58f47 ,
+    3px 3px 0 0 #f58f47 ,
+    2px 2px 0 0 #f58f47 ,
+    1px 1px 0 0 #f58f47 ,
+    -1px -1px 10px 1px rgba(224, 230, 230,0.5) inset;
+    box-shadow: 10px 10px 0 0 #f58f47 ,
+    9px 9px 0 0 #f58f47 ,
+    8px 8px 0 0 #f58f47 ,
+    7px 7px 0 0 #f58f47 ,
+    6px 6px 0 0 #f58f47 ,
+    5px 5px 0 0 #f58f47 ,
+    4px 4px 0 0 #f58f47 ,
+    3px 3px 0 0 #f58f47 ,
+    2px 2px 0 0 #f58f47 ,
+    1px 1px 0 0 #f58f47 ,
+    -1px -1px 10px 1px rgba(224, 230, 230,0.5) inset;
+}
+.orange_box_up::after{
+    margin-right: -20px;
+    width: 100%;
+    border-bottom: 2px solid #ce7638;
+    height: 1px;
+    -webkit-box-shadow: 10px 10px 0 0 #ce7638 ,
+    9px 9px 0 0 #ce7638 ,
+    8px 8px 0 0 #ce7638 ,
+    7px 7px 0 0 #ce7638 ,
+    6px 6px 0 0 #ce7638 ,
+    5px 5px 0 0 #ce7638 ,
+    4px 4px 0 0 #ce7638 ,
+    3px 3px 0 0 #ce7638 ,
+    2px 2px 0 0 #ce7638 ,
+    1px 1px 0 0 #ce7638 ;
+   
+    box-shadow: 10px 10px 0 0 #ce7638 ,
+    9px 9px 0 0 #ce7638 ,
+    8px 8px 0 0 #ce7638 ,
+    7px 7px 0 0 #ce7638 ,
+    6px 6px 0 0 #ce7638 ,
+    5px 5px 0 0 #ce7638 ,
+    4px 4px 0 0 #ce7638 ,
+    3px 3px 0 0 #ce7638 ,
+    2px 2px 0 0 #ce7638 ,
+    1px 1px 0 0 #ce7638 ;
 
 }
+
+.timeline-image-right{
+    float: right;
+    padding: 20px;
+}
+.timeline-body{
+    margin: 30px 20px 30px 20px;
+    clear: both;
+}
+.timeline-title{
+    padding: 20px;
+    max-width: 400px;
+}
+
+.timeline-heading{
+    background-color: #e6e6e5;
+    color: #011b2e;
+    min-height: 100px;
+
+}
+
+#competence div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .hobbies
 {
     margin-bottom: 5%;
 }
-
 .h1_font_color
 {
     color: #ffffff;
     font-variant: small-caps;
-}
-.brown_id
-{
-    background: #48271B;
-    color: #f6f2d7;
-}
-
-.photo_id
-{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 20%;
-    border: solid;
-}
-
-.curvy_box
-{
-    border-radius: 20px;
 }
 
 .hobbies{
     min-height: 150px !important;
     border: solid 1px black;
 }
+.timeline-panel{
+    background-color: #536e6d;
+    box-shadow: -1px -1px 10px 1px rgba(219, 219, 219, 0.50) inset!important;
+    -webkit-box-shadow: -1px -1px 10px 1px rgba(219, 219, 219, 0.50) inset!important;
 
-/*Séparateur très moche à revoir*/
-h2::before{
-    margin-right: 20px;
-    content:"\f111  \f111  \f111";
-    font-weight: bolder;
-    font-family: 'fontawesome';
-    color: #080808;
 }
-h2::after{
-    margin-left: 20px;
-    content:"\f111  \f111  \f111";
-    font-weight: bolder;
-    font-family: 'fontawesome';
-    color: #080808;
+.text-muted{
+    color: #f28a22;
+
+
 }
-/*Fin Séparateur très moche à revoir*/
 
