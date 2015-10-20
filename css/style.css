@@ -109,7 +109,8 @@ section {
     1px 1px 0 0 #f58f47 ,
     -1px -1px 10px 1px rgba(224, 230, 230,0.5) inset;
 }
-.orange_box_up::after{
+.orange_box_up::after {
+	padding:0;
     margin-right: -20px;
     width: 100%;
     border-bottom: 2px solid #ce7638;
@@ -164,21 +165,16 @@ section {
 }
 
 
-.hobbies
-{
-    margin-bottom: 5%;
-}
+
 .h1_font_color
 {
     color: #ffffff;
     font-variant: small-caps;
 }
 
-.hobbies{
-    min-height: 150px !important;
-    border: solid 1px black;
-}
+
 .timeline-panel{
+	
     background-color: #536e6d;
     box-shadow: -1px -1px 10px 1px rgba(219, 219, 219, 0.50) inset!important;
     -webkit-box-shadow: -1px -1px 10px 1px rgba(219, 219, 219, 0.50) inset!important;
@@ -187,6 +183,75 @@ section {
 .text-muted{
     color: #f28a22;
 
-
 }
+
+@media only screen and (min-width: 641px) {
+  .remodal {
+    max-width: 1100px!important;
+  }
+}
+
+
+#realisation .col-lg-6, #realisation .col-md-6, #realisation .col-sm-12,#realisation .col-xs-12{
+	padding:30px;
+	
+	
+	
+}
+.item img{
+	margin-top:30px;		
+}
+.remodal p, .remodal ul {
+	font-size:0.8em;	
+} 
+.remodal ul{
+	margin-top:15px;
+	margin-bottom:15px;
+	font-style:italic;
+	color:#ce7638;
+}
+.remodal .btn-default{
+	background-color:#f58f47;
+	color:white;
+	border:none;	
+}
+.item {
+	padding-top:20px;
+	padding-bottom:20px;	
+	background-color: #536e6d;
+}
+
+	
+.item h4{
+	margin-bottom:20px;
+	max-width:300px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+.hobbies{
+    min-height: 150px !important;
+    border: solid 1px black;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.hobbies img{
+	float:left;	
+}
+.hobbies h4{
+	margin-top:42px;
+	float:left;
+	margin-left:10px;
+	
+	
+}
+
+#contact form{
+	padding:20px;
+	
+	
+}
+
+
+
 
