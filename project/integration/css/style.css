@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,300,500);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+.test1{
+    border: double 2px red;
+}
+.test2{
+    border: dotted 1px blue;
+}
+h1,h2,h3{
+    color: #404040
+}
+h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+h1:after{
+    content: '^^^^';
+    display:block;
+    color:#EF845A ;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+h2{
+   font-size: 16px;
+    font-weight: bolder;
+}
+em{
+    font-style:normal;
+    font-weight: 900;
+}
+body{
+    font-family: 'Raleway',sans-serif;
+    background-color:#F3F3F3;
+    font-size: 20px;
+    color:#2f2f2f;
+}
+header{
+    background-color: #ffffff;
+    border-bottom: solid 1px #c0c0c0;
+}
+header .container{
+padding: 0;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#top_bar div ,#top_bar a{
+    color: #676460;
+    font-size: 12px;
+    padding: 10px;
+    border-left:solid 1px #c0c0c0;
+}
+#top_bar div:last-child{
+    border:none;
+}
+#top_bar a:last-child{
+    border-right:solid 1px #c0c0c0;
+}
+.navbar-nav,.navbar-default,.collapse .navbar-collapse{
+    border: 0;
+    background-color: #ffffff;
+    box-shadow:none;
+    background-image: none;
+    box-shadow:none
+}
+.navbar-default .navbar-nav > li > a {
+    color: #2f2f2f;
+    font-size: 12px;
+    font-weight:900;
+    text-transform: uppercase ;
+
+}
+header nav{
+padding: 0;
+}
+.navbar-default {
+    border-bottom:solid 1px #c0c0c0;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+.navbar-brand, nav ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-left: 0;
+}
+#slider1 img,#slider2 img{
+width: 100%;
+
+}
+.col-lg-4{
+    list-style: none;
+}
+.icon{
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    color:#EF845A;
+}
+#service .col-lg-4>h2,#service .col-lg-4>p{
+    margin-left: 30px;
+}
+#service .col-lg-4>h2{
+    margin-top: 5px;
+}
+#service{
+background-color: #FCFCFC;
+}
+#service li p{
+    font-size: 12px;
+    color: #606060;
+
+}
+#service .col-lg-4{
+    padding: 20px;
+}
+#customers .col-lg-6{
+padding: 0 20px;
+}
+#customers blockquote{
+    border: none;
+    border-bottom: solid 1px #c0c0c0 ;
+    background-color: white;
+}
+#customers blockquote p{
+    color:#9a9a9a;
+}
+#customers blockquote p:before{
+    content: '"';
+    font-size: 80px;
+    color:#c0c0c0;
+    float: left;
+    font-family: 'Lily Script One', cursive;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.cust_name{
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.cust_job{
+    text-transform: uppercase;
+    color: #c0c0c0;
+    font-size: 15px;
+}
+#process .col-lg-6 img{
+    margin-top: 20px;
+}
+#process li{
+    color:#EF845A;
+}
+#process p, #process li p{
+    font-size: 15px;
+    color: #606060;
+}
+#letsmake{
+    height: 400px;
+    background-image: url("../images/banner.png");
+ }
+#letsmake h1, #letsmake h1:after{
+    color: #ffffff;
+}
+#letsmake .btn-default {
+    background-image: none;
+    background-color: transparent;
+    text-shadow: none;
+    color: white;
+    border-radius: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#letsmake .btn-default:hover {
+    background-color: #ffffff;
+    color: #2f2f2f;
+    transition: all 300ms ease-in 0s;
+}
+#blog .col-lg-4{
+    padding: 20px;
+}
+#blog img{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+#blog .col-lg-4 div {
+    background-color: #ffffff;
+    padding:10px 20px;
+}
+#blog .col-lg-4 div p {
+    color: #2f2f2f;
+    font-size: 15px;
+}
+#blog .col-lg-4 div p:first-of-type,#blog .col-lg-4 div a  {
+    color: #c0c0c0;
+    font-size: 15px;
+}
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#262B2F;
+    color: #c0c0c0;
+    font-size: 15px;
+
+}
+footer h2, footer h3{
+    color: #ffffff;
+    font-weight: 600;
+}
+footer h2{
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+footer h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0;
+}
+footer ul:first-of-type{
+    list-style: none;
+    padding: 0;
+}
+#post li{
+    padding: 0 10px 10px 0;
+}
+.form-control{
+    background-color:#1E2226;
+    border-radius:0;
+    border:none;
+}
+.btn-default {
+    background-image:none;
+    border-radius: 0;
+    text-shadow:0;
+    background-color: #DE524B;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: none;
+    margin-left: -3px;
+    font-size: 15px;
+    border: none;
+}
+address{
+    margin-bottom: 10px;
+}
+footer #tag li{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:#1E2226;
+}
+footer #tag li:before{
+    content:".";
+    font-family: 'Lily Script One', cursive;
+    font-size: 20px;
+}
+#bottom_bar{
+    background-color: #21262A;
+}
+#bottom_bar .container {
+    padding:15px 0;
+}
+#bottom_bar p{
+    color:#ffffff;
+    font-size: 15px;
+}
+#bottom_bar a{
+    border: 2px solid;
+    border-radius: 100%;
+    font-size: 15px;
+}
+#bottom_bar .fa{
+    padding: 5px;
+}
+#bottom_bar .fa-rss, #bottom_bar a:nth-child(1){
+    color: #FAAA5E;
+    border-color:#FAAA5E;
+}
+#bottom_bar .fa-twitter, #bottom_bar a:nth-child(2){
+    color: #70C2E9;
+    border-color:#70C2E9;
+}
+#bottom_bar .fa-facebook-f, #bottom_bar a:nth-child(3){
+    color: #677FB5;
+    border-color:#677FB5;
+}
+#bottom_bar .fa-pinterest-p , #bottom_bar a:nth-child(4){
+    color: #D8545D;
+    border-color:#D8545D;
+}
+#bottom_bar .fa-linkedin , #bottom_bar a:nth-child(5){
+    color:#3DACCF;
+    border-color:#3DACCF;
+}
+#contact{
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+@media (min-width: 992px){
+    #process .borderline:first-of-type {
+        border-bottom:solid 1px #c0c0c0;
+    }
+    #process .borderline .col-lg-6:last-child{
+        border-left:solid 1px #c0c0c0;
+    }
+}
+@media (max-width: 991px){
+    #blog .col-lg-4{
+        margin-top: 20px;
+        background-color: #FFFFFF;
+    }
+    #blog .col-lg-4 div{
+        padding-top: 0;
+    }
+    #blog .col-lg-4 h2{
+        margin-top: 0;
+    }
+}
