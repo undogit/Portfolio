@@ -244,15 +244,18 @@ section {
 	
 }
 .hobbies{
-    min-height: 150px !important;
+    margin-top: 30px;
+    min-height: 255px !important;
     padding-top:20px;
     padding-bottom:20px;
+
 }
 .hobbies img{
-	float:left;	
+	float:left;
+
 }
 .hobbies h4{
-	margin-top:42px;
+	display: inline-block;
 	float:left;
 	margin-left:10px;
 }
