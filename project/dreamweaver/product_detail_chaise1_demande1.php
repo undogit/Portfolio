@@ -25,7 +25,7 @@
         <ul>
             <li><a href="boutique_product_family_type2.php">La boutique</a></li>
             <li><a href="societe.php" target="#">La société</a></li>
-            <li><a href="contact_type6.php" target="#">Contacts</a></li>
+            <li><a href="contact.php" target="#">Contacts</a></li>
         </ul>
     </div>
     <div id="main">
