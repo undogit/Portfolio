@@ -1,9 +1,6 @@
 <?php
 session_start();
 
-$_SESSION['post']=$_POST;
-
-
 function validText($key,$value){
 	if(!isset($value)||empty($value)){
 		$_SESSION['errors'][]='Le champ "'.$key.'" n\'est pas valide.';		
@@ -29,10 +26,10 @@ if(isset($_SESSION['errors'])){
 }
 else{
 	$filter=array('&lt;','&gt;');
-	$mailTo='ipcared2015@gmail.com';
+	$mailTo='g.perrier80@gmail.com';
 	$mailsubject=str_replace($filter,"",htmlspecialchars($_SESSION['sujet']));
 	$mailBody=str_replace($filter,"",htmlspecialchars($_SESSION['message']));
-	$headers= 'From:'.$_SESSION['nom'].' <'.$_SESSION[email].'>';
+	$headers= 'From:'.$_SESSION['nom'].' <'.$_SESSION['email'].'>';
 	
 	if(mail($mailTo,$mailsubject,$mailBody,$headers)){
 	
@@ -40,6 +37,6 @@ else{
 	}
 }
 
-header('location:form.php');
+header('location:index1.php#contact');
 
 ?>

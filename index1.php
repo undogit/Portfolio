@@ -1,3 +1,40 @@
+<?php session_start();
+if (isset($_SESSION['nom'])&&!empty($_SESSION['nom'])){
+	$nameValue='value="'.$_SESSION['nom'].'"';
+}
+else {
+	$nameValue='value=""';
+}
+if (isset($_SESSION['email'])&&!empty($_SESSION['email'])){
+	$emailValue='value="'.$_SESSION['email'].'"';
+}
+else {
+	$emailValue='value=""';
+}
+if (isset($_SESSION['sujet'])&&!empty($_SESSION['sujet'])){
+	$subjectValue='value="'.$_SESSION['sujet'].'"';
+}
+else {
+	$subjectValue='value=""';
+}
+if (isset($_SESSION['status'])&&!empty($_SESSION['status'])){
+	$statusValue=$_SESSION['status'];
+}
+else {
+	$statusValue='';
+}
+
+
+if (isset($_SESSION['message'])&&!empty($_SESSION['message'])){
+	$messageValue=$_SESSION['message'];
+}
+else {
+	$messageValue='';
+}
+session_destroy();
+?>
+
+
 <!DOCTYPE html>
 <html lang="FR">
 
@@ -73,6 +110,7 @@
     <!--</div>-->
     <!-- /.container -->
 </nav>
+
 <section id="slider" class="row">
 </section>
 <div class="container">
@@ -512,7 +550,7 @@
 
         <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
             <div class="hobbies">
-                <img src="https://placehold.it/350x150" width="350px" class="center-block  img-responsive">
+                <img src="image/basse.png" width="350px" class="center-block  img-responsive">
                 <h4>Bassiste</h4>
 
                 <div class="clearfix"></div>
@@ -526,7 +564,7 @@
         </div>
         <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
             <div class="hobbies">
-                <img src="https://placehold.it/350x150" width="350px" class="center-block  img-responsive">
+                <img src="image/cinema.png" width="350px" class="center-block  img-responsive">
                 <h4>Cinéma</h4>
 
                 <div class="clearfix"></div>
@@ -540,7 +578,7 @@
         </div>
         <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-           <img src="https://placehold.it/350x150" width="350px" class="center-block  img-responsive">
+           <img src="image/bricolage.png" width="350px" class="center-block  img-responsive">
             <h4>Bricolage</h4>
 
             <div class="clearfix"></div>
@@ -553,7 +591,7 @@
     </div>
     <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-            <img src="https://placehold.it/350x150" width="350px" class="center-block  img-responsive">
+            <img src="image/brocante.png" width="350px" class="center-block  img-responsive">
             <h4>Brocante</h4>
 
             <div class="clearfix"></div>
@@ -566,7 +604,7 @@
     </div>
     <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-            <img src="https://placehold.it/350x150" width="350px" class="center-block  img-responsive">
+            <img src="image/science.png" width="350px" class="center-block  img-responsive">
             <h4>Science & technologie</h4>
 
             <div class="clearfix"></div>
@@ -578,7 +616,7 @@
     </div>
     <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-           <img src="https://placehold.it/350x150" width="350px" class="center-block  img-responsive">
+           <img src="image/videogame.png" width="350px" class="center-block  img-responsive">
             <h4>Jeux vidéo</h4>
 
             <div class="clearfix"></div>
@@ -594,25 +632,25 @@
         <h2>Contact</h2>
 
 
-        <form class="form-horizontal" role="form" method="post" action="form.php">
+        <form class="form-horizontal" role="form" method="post" action="validForm.php">
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="text"  class="form-control" id="name" name="name" placeholder="Nom / Société" value="">
+                    <input type="text" required="required" class="form-control" id="name" name="nom" placeholder="Nom / Société" <?=$nameValue?>>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="">
+                    <input type="email" required="required" class="form-control" id="email" name="email" placeholder="Email" <?=$emailValue?>>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" value="">
+                    <input type="text" required="required" class="form-control" id="subject" name="sujet" placeholder="Sujet" <?=$subjectValue?>>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    <textarea class="form-control" rows="4" name="message" placeholder="Votre message..."></textarea>
+                    <textarea class="form-control" required="required" rows="4" name="message" placeholder="Votre message..."><?=$messageValue?></textarea>
                 </div>
             </div>
             <div class="form-group">
@@ -622,10 +660,11 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    <!--  Will be used to display an alert to the user-->
+                    <?php echo $statusValue?>
                 </div>
             </div>
         </form>
+
     </section>
 </div>
 <section id="info" class="row orange_box_up">

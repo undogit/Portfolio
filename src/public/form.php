@@ -39,7 +39,7 @@ session_destroy() ;
 
 
 
-<form class="form-horizontal" role="form" method="post" action="validForm.php">
+<form class="form-horizontal" role="form" method="post" action="../../validForm.php">
             <div class="form-group">
                 <div class="col-sm-12">
                     <input type="text" required="required" class="form-control" id="name" name="nom" placeholder="Nom / Société" <?=$nameValue?>>

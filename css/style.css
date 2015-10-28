@@ -256,10 +256,11 @@ section {
 	
 	
 }
-/*.hobbies img{
-	float:left;
+.hobbies img{
+	height: 150px;
 
 }
+/*
 .hobbies h4{
 	display: inline-block;
 	float:left;
