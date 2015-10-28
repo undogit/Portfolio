@@ -1,48 +1,28 @@
 <?php
 session_start();
 
+
 $errors=array();
-$name=$_POST['name'];
-$email=$_POST['email'];
-$subject=$_POST['subject'];
-$message=$_POST['message'];
+$_SESSION['post']=$_POST;
 
-if(!isset($name)||empty($name)){
-	$errors[]='Le champ "nom" n\'est pas valide.';	
-}
-else {
-$_SESSION['name']=$name;		
-}
 
-if (!isset($email)||filter_var($email, FILTER_VALIDATE_EMAIL)==False || empty($email)){
-	$errors[]='Le champ "email" n\'est pas valide.';
-}
-else{
-	$_SESSION['email']=$email;
+function validText($key,$value){
+	if(!isset($value)||empty($value)){
+		$_SESSION['errors'][]='Le champ "'.$key.'" n\'est pas valide.';		
+	}
+	else if($key=='email' && filter_var($value, FILTER_VALIDATE_EMAIL)==False ){
+			$_SESSION['errors'][]='Le champ "'.$key.'" n\'est pas valide.';			
+		}
+	else{
+		$_SESSION[''.$key.'']=$value;						
+	}
+	return $_SESSION;
 }
 
-if(!isset($subject)||empty($subject)){
-	$errors[]='Le champ "sujet" n\'est pas valide.';
-}
-else {
-	$_SESSION['subject']=$subject;
-}
-
-if(!isset($message)||empty($message)){
-	$errors[]='Le champ "message" n\'est pas valide.';
-}
-else {
-	$_SESSION['message']=$message;
+foreach ($_POST as $key=>$value){
+	validText($key, $value);
 }
 
 header('location:form.php');
-
-	
-	
-	
-
-
-
-
 
 ?>

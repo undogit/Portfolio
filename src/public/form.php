@@ -1,6 +1,6 @@
 <?php session_start();
-if (isset($_SESSION['name'])&&!empty($_SESSION['name'])){
-	$nameValue='value="'.$_SESSION['name'].'"';	
+if (isset($_SESSION['nom'])&&!empty($_SESSION['nom'])){
+	$nameValue='value="'.$_SESSION['nom'].'"';	
 }
 else {
 	$nameValue='value=""';
@@ -11,8 +11,8 @@ if (isset($_SESSION['email'])&&!empty($_SESSION['email'])){
 else {
 	$emailValue='value=""';
 }
-if (isset($_SESSION['subject'])&&!empty($_SESSION['subject'])){
-	$subjectValue='value="'.$_SESSION['subject'].'"';
+if (isset($_SESSION['sujet'])&&!empty($_SESSION['sujet'])){
+	$subjectValue='value="'.$_SESSION['sujet'].'"';
 }
 else {
 	$subjectValue='value=""';
@@ -34,7 +34,7 @@ session_destroy() ;
 <form class="form-horizontal" role="form" method="post" action="validForm.php">
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Nom / Société" <?=$nameValue?>>
+                    <input type="text" class="form-control" id="name" name="nom" placeholder="Nom / Société" <?=$nameValue?>>
                 </div>
             </div>
             <div class="form-group">
@@ -44,7 +44,7 @@ session_destroy() ;
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" <?=$subjectValue?>>
+                    <input type="text" class="form-control" id="subject" name="sujet" placeholder="Sujet" <?=$subjectValue?>>
                 </div>
             </div>
             <div class="form-group">
