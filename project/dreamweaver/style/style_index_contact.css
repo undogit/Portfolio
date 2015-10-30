@@ -1,0 +1,54 @@
+#main .article {
+	position: relative;
+	min-height: 300px;
+}
+#wraper h2  {
+	background-color: #EEEEEE;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 25px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #aaaaaa;
+	border-right-color: #aaaaaa;
+	border-bottom-color: #aaaaaa;
+	border-left-color: #aaaaaa;
+	font-size: 18px;
+	color: #AAAAAA;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+#main .article_image  {
+	position: relative;
+	float: left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+
+#main .article .article_text {
+	text-align: justify;
+	margin-right: 30px;
+	line-height: 15px;
+}
+#main .article #gmap {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 175px;
+}
+#main .article .contact_text {
+	text-align: center;
+	margin-top: 30px;
+}
+#main .vcard {
+	text-align: center;
+	margin-top: 20px;
+}

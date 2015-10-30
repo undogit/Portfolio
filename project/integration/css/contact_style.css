@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,300,500);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+.test1{
+    border: double 2px red;
+}
+.test2{
+    border: dotted 1px blue;
+}
+h1,h2,h3{
+    color: #404040
+}
+h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+h1:after{
+    content: '^^^^';
+    display:block;
+    color:#EF845A ;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+h2{
+   font-size: 16px;
+    font-weight: bolder;
+}
+em{
+    font-style:normal;
+    font-weight: 900;
+}
+body{
+    font-family: 'Raleway',sans-serif;
+    background-color:#FCFCFC;
+    font-size: 16px;
+    color:#2f2f2f;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row:first-of-type p{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.form-control{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color:#E9E9E9 ;
+}
+.col-lg-4 p, .col-lg-4 a{
+    font-size: 14px!important;
+    color:#2f2f2f;
+}
+.form-horizontal{
+    margin-top: 30px;
+}
+
+.input-group, textarea{
+
+    margin-bottom: 20px;
+}
+.input-group span{
+    background-color: #D8DADA;
+    border: none;
+    border-radius: 0;
+}
+
+textarea{
+    padding-left:15px;
+    padding-right: 15px;
+}
+.radio{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px!important;
+}
+.radio label{
+    padding-top: 0!important;
+}
+.btn-default{
+    background-image: none;
+    background-color:#E8554E;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius: 0;
+    text-shadow: none;
+    border: none;
+}
+.btn-default:hover{
+    background-color:#ffffff;
+    color: #E8554E;
+}
+@media (max-width: 991px){
+    textarea{
+        margin-top: 20px;
+
+    }
+
+}

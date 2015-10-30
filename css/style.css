@@ -1,0 +1,344 @@
+/* Début Maintenance*/
+.maintenance{
+    background-image: url("../image/maintenance.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 720px;
+    margin-left:10px !important;
+    margin-right:10px !important;
+}
+.maintenance h1{
+    font-size: 40px;
+   text-align: center;
+}
+/* fin Maintenance*/
+
+@font-face {
+    font-family: 'lemondrop';
+    src: url('../fonts/lemondrop.eot');
+    src: url('../fonts/lemondrop.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lemondrop.woff2') format('woff2'),
+    url('../fonts/lemondrop.woff') format('woff'),
+    url('../fonts/lemondrop.ttf') format('truetype'),
+    url('../fonts/lemondrop.svg#star_avenueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    color: #dcdcdc;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#596d74,#19262D);
+}
+@media only screen and (max-width: 641px) {
+  body {
+    font-size:1.2em;
+  }
+}
+
+a{
+    color: rgba(242, 138, 34, 0.90);
+}
+.navbar-brand{
+    font-family: 'lemondrop';
+    color: #011b2e !important;
+}
+.navbar-brand::first-letter{
+    font-size: 1.2em;
+    color: #f28a22 !important;
+}
+nav{
+font-size:1.2em;			
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:1.5em;
+    font-family: "lemondrop", Arial, sans-serif ;
+    margin-bottom: 50px;
+    text-align: center;
+}
+@media only screen and (max-width: 641px) {
+  h1,h2,h3,h4,h5,h6 {
+    font-size:1.1em;
+  }
+}
+
+h2::before, h2::after{
+    display: inline;
+    content: "/";
+    color: #f28a22;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+#slider{
+    background-image: url("../image/maintenance.png");
+    background-size: cover;
+    margin: auto;
+    width:100%;
+    min-height: 100%;
+    padding-top:600px;
+}
+.title{
+	background-color:rgba(27, 32, 35, 0.7)
+}
+.title h1{
+	font-size:3.2em;	
+}
+
+section {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#about h5, #about img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about img{
+    border: 4px solid  #f58f47;
+
+}
+#about p{
+    padding: 10px;
+}
+
+.orange_box_up{
+    background-color: #80979e;
+    -webkit-box-shadow: 10px 10px 0 0 #f58f47 ,
+    9px 9px 0 0 #f58f47 ,
+    8px 8px 0 0 #f58f47 ,
+    7px 7px 0 0 #f58f47 ,
+    6px 6px 0 0 #f58f47 ,
+    5px 5px 0 0 #f58f47 ,
+    4px 4px 0 0 #f58f47 ,
+    3px 3px 0 0 #f58f47 ,
+    2px 2px 0 0 #f58f47 ,
+    1px 1px 0 0 #f58f47 ,
+    -1px -1px 10px 1px rgba(224, 230, 230,0.5) inset;
+    box-shadow: 10px 10px 0 0 #f58f47 ,
+    9px 9px 0 0 #f58f47 ,
+    8px 8px 0 0 #f58f47 ,
+    7px 7px 0 0 #f58f47 ,
+    6px 6px 0 0 #f58f47 ,
+    5px 5px 0 0 #f58f47 ,
+    4px 4px 0 0 #f58f47 ,
+    3px 3px 0 0 #f58f47 ,
+    2px 2px 0 0 #f58f47 ,
+    1px 1px 0 0 #f58f47 ,
+    -1px -1px 10px 1px rgba(224, 230, 230,0.5) inset;
+}
+.orange_box_up::after {
+	padding:0;
+    margin-right: -20px;
+    width: 100%;
+    border-bottom: 2px solid #ce7638;
+    height: 1px;
+    -webkit-box-shadow: 10px 10px 0 0 #ce7638 ,
+    9px 9px 0 0 #ce7638 ,
+    8px 8px 0 0 #ce7638 ,
+    7px 7px 0 0 #ce7638 ,
+    6px 6px 0 0 #ce7638 ,
+    5px 5px 0 0 #ce7638 ,
+    4px 4px 0 0 #ce7638 ,
+    3px 3px 0 0 #ce7638 ,
+    2px 2px 0 0 #ce7638 ,
+    1px 1px 0 0 #ce7638 ;
+   
+    box-shadow: 10px 10px 0 0 #ce7638 ,
+    9px 9px 0 0 #ce7638 ,
+    8px 8px 0 0 #ce7638 ,
+    7px 7px 0 0 #ce7638 ,
+    6px 6px 0 0 #ce7638 ,
+    5px 5px 0 0 #ce7638 ,
+    4px 4px 0 0 #ce7638 ,
+    3px 3px 0 0 #ce7638 ,
+    2px 2px 0 0 #ce7638 ,
+    1px 1px 0 0 #ce7638 ;
+
+}
+
+.timeline-image-right{
+    float: right;
+    padding: 20px;
+}
+.timeline-body{
+    margin: 30px 20px 30px 20px;
+    clear: both;
+}
+.timeline-title{
+    padding: 20px;
+    max-width: 400px;
+}
+
+.timeline-heading{
+    background-color: #e6e6e5;
+    color: #011b2e;
+    min-height: 100px;
+
+}
+
+#competence div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline-panel, .hobbies{
+    background-color: #80979e;
+    box-shadow: -1px -1px 10px 1px rgba(219, 219, 219, 0.50) inset!important;
+    -webkit-box-shadow: -1px -1px 10px 1px rgba(219, 219, 219, 0.50) inset!important;
+
+}
+.text-muted{
+    color: #f28a22;
+}
+
+@media only screen and (min-width: 641px) {
+  .remodal {
+    max-width: 1100px!important;
+  }
+}
+#realisation .col-lg-6, #realisation .col-md-6, #realisation .col-sm-12,#realisation .col-xs-12{
+	padding:30px;
+	
+}
+
+
+.item{
+	min-height:410px;	
+}
+.item img{
+	margin-top:30px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+		
+
+.item:hover img, .timeline-heading a:hover  img{
+	filter: sepia(0);
+        -webkit-filter: sepia(0);
+        -moz-filter: sepia(0);
+        -o-filter: sepia(0);
+        -ms-filter: sepia(0);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+
+		
+}
+
+.remodal img{
+    margin-bottom: 30px;
+}
+.remodal p, .remodal ul {
+	font-size:0.8em;	
+}
+.remodal{
+    background-color: #dcdcdc;
+    
+}
+.remodal ul{
+	margin-top:15px;
+	margin-bottom:15px;
+	font-style:italic;
+	color:#ce7638;
+}
+.remodal .btn-default{
+	background-color:#f58f47;
+	color:#dcdcdc;
+	border:none;	
+}
+.item {
+    color: #333;
+	padding-top:20px;
+	padding-bottom:20px;	
+	background-color: #e6e6e5;
+}
+
+	
+.item h4{
+	margin-bottom:20px;
+	max-width:300px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+.hobbies{
+    margin-top: 30px;
+    min-height: 360px !important;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+.hobbies h4{
+	margin-bottom:20px;
+		
+}
+.hobbies img{
+	height: 150px;
+
+}
+
+
+#contact form {
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact .form-group{
+    margin-top: 25px!important;
+}
+#contact .form-control:focus{
+border-color: #ce7638;
+box-shadow: inset 0 1px 1px #ce7638, 0 0 8px #ce7638;
+	
+	
+	
+}
+#contact #submit{
+    background-color: rgba(242, 138, 34, 0.9);
+    border-color: #ce5c00;
+
+}
+footer{
+    font-size: 1.2em;
+}
+
+#info span, #info a{
+    margin-left: 20px;
+}
+#info li{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#info iframe{
+    width: 100%;
+    margin-bottom:25px;
+}
+#info .fa-mobile{
+    font-size: 2em;
+}
+
+#mail a{
+	margin-left:0px;	
+}
+.social{
+    font-size: 2.5em;
+}
+.row{
+    margin-left:0px;
+    margin-right: 0px;
+
+}
+
+

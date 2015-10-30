@@ -1,0 +1,98 @@
+#main {
+	width: 550px;
+	position: relative;
+	float: left;
+}
+/* CSS Document */
+#main .article {
+	position: relative;
+	height: auto;
+	width: 550px;
+	float: left;
+}
+#main .article_title{
+	background-color: #EEEEEE;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 25px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #aaaaaa;
+	border-right-color: #aaaaaa;
+	border-bottom-color: #aaaaaa;
+	border-left-color: #aaaaaa;
+	font-size: 18px;
+	color: #AAAAAA;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 500px;
+	border-right-width: 1px;
+}
+
+#main .article .article_text {
+	margin-top: 20px;
+	text-align: justify;
+	line-height: 15px;
+	position: relative;
+	clip: rect(auto,auto,auto,5px);
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+#main .article .img_left {
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+
+}
+#main .article .img_right {
+	display: block;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	margin-left: 15px;
+
+}
+#aside  {
+	background-color: #CCC;
+	height: 700px;
+	width: 240px;
+	float: right;
+	margin-top: 62px;
+	margin-right: 29px;
+	margin-left: 29px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #AAA;
+	border-right-color: #AAA;
+	border-bottom-color: #AAA;
+	border-left-color: #AAA;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+}
+
+#aside p {
+	font-size: 12px;
+	padding: 8px;
+	text-align: justify;
+}
+#aside .social {
+	background-color: #FFF;
+	height: 350px;
+	width: 220px;
+	margin: 10px;
+}
+#aside .social img{
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,300,500);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+body{
+    font-family: 'Raleway',sans-serif;
+    background-color:#FCFCFC;
+    color:#2f2f2f;
+}
+
+section p:first-child{
+    margin-top: 15%;
+    font-size: 200px;
+    font-weight: 600;
+}
+section p:nth-child(2){
+    font-size: 40px;
+    font-weight: 800;
+}
+footer{
+     border-top: solid 1px #000000;
+     position:absolute;
+     bottom: 0px;
+     background-color:#474747;
+     color:#FCFCFC;
+     padding:20px 0px 20px 20px;
+     font-size: 12px;
+     width: 100%;
+ }
+footer a{
+    text-decoration: underline;
+    color:#ffffff!important;
+    font-size: 14px;
+
+}

@@ -1,0 +1,187 @@
+/* CSS Document */
+
+
+#main .product_family {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	display: block;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #aaaaaa;
+	border-bottom-color: #aaaaaa;
+	border-left-color: #aaaaaa;
+}
+
+#main .family_title {
+	background-color: #aaaaaa;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaaaaa;
+}
+
+ #main .thumbnail {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	display: block;
+	text-decoration: none;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #aaaaaa;
+	border-bottom-color: #aaaaaa;
+	border-left-color: #aaaaaa;
+}
+#main .product_name {
+	background-color: #aaaaaa;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaaaaa;
+}
+
+ #main .product_name h2 {
+ padding-top: 5px;
+ padding-right: 0px;
+ padding-bottom: 5px;
+ margin-left: 30px;
+ padding-left: 10px;
+ background-color: #ededed;
+ font-size: 18px;
+ color: #aaaaaa;
+ font-weight: bold;
+}
+
+/*Style fiche produit*/
+
+#main #product_img {
+	height: auto;
+	width: 300px;
+	float: left;
+ 	margin-top: 30px;
+ 	margin-bottom: 10px;
+ 	margin-left: 50px;
+ 	border: 1px solid #aaaaaa;
+ 	display: block;
+ 	text-decoration: none;		
+}
+#main #product_description {
+	float: left;
+	margin-top: 30px;
+	width: 400px;
+	margin-left: 20px;
+}
+
+#main #product_description_title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #AAA;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+#product_description_text {
+	margin-top: 10px;
+	text-align: justify;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+table {
+	width: 750px;
+	margin-left: 25px;
+	border-collapse: collapse;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+table caption {
+	/*La balise caption est masquée mais présente pour les liseuses d'écran*/
+	visibility: hidden;
+}
+
+table tr {
+	border: 1px solid #aaaaaa;
+}
+
+table th {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaaaaa;
+	font-size: 18px;
+	color: #aaaaaa;
+	background-color: #EDEDED;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+table td {
+	padding-left: 20px;
+	vertical-align: middle;
+	
+	}
+#note_client {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#note_client tr{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#moyenne {
+	background-color: #888;
+	width: 200px;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 10px;
+	color: #FFF;
+	display: block;
+}
+
+
+
+#detail_note {
+	width: 120px;
+	margin: 0px;
+	border: 1px solid #aaaaaa;
+}
+#detail_note tr  {
+	margin: 0px;
+	border: 1px solid #aaaaaa;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#detail_note tr th{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#detail_note tr td{
+	margin: 0px;
+	border: 1px solid #aaaaaa;
+	text-align: center;
+	vertical-align: middle;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+TabbedPanels1 .TabbedPanelsContentGroup .TabbedPanelsContent.TabbedPanelsContentVisible p {
+	margin-bottom: 20px;
+	text-align: justify;
+}

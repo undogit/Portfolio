@@ -1,0 +1,149 @@
+@charset "utf-8";
+.clear {
+	clear: both;
+}
+strong {
+	font-weight: bold;
+}
+
+
+#wraper {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	height: 100%;
+	width: 850px;
+	left: 0px;
+	right: 0px;
+	border: 1px solid #aaaaaa;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-color: #888888;
+	height: 120px;
+}
+h2 {
+	background-color: #EEEEEE;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 25px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #aaaaaa;
+	border-right-color: #aaaaaa;
+	border-bottom-color: #aaaaaa;
+	border-left-color: #aaaaaa;
+	font-size: 18px;
+	color: #AAAAAA;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#header h1 {
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 40px;
+	font-weight: bold;
+}
+#header ul {
+	left: 0px;
+	bottom: 0px;
+	background-color: #cccccc;
+	height: auto;
+	width: 850px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	margin-top: 30px;
+}
+#header ul li {
+	display: inline;
+	margin-left: 0px;
+	margin-right: 30px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#header ul a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+}
+#main #breadcrump {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#main #breadcrump a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #AAAAAA;
+}
+#main {
+	height: 100%;
+}
+#main .article .article_link {
+	color: #ffcc88;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	clear: none;
+}
+#main .titre_mention_legale {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px;
+	text-decoration: underline;
+}
+#main p {
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#footer {
+	position: relative;
+	left: auto;
+	bottom: 0px;
+	background-color: #888;
+	width: auto;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#footer a {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-weight: normal;
+	color: #ededed;
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+}
+#main .titre_mentionlegale {
+	color: #AAAAAA;
+	font-size: 18px;
+	text-decoration: underline;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#main .text_mentionlegale {
+	color: #aaaaaa;
+	text-align: justify;
+	padding: 5px;
+}
