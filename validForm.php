@@ -25,10 +25,10 @@ if(isset($_SESSION['errors'])){
 	$_SESSION['status']=$status;	
 }
 else{
-	$filter=array('&lt;','&gt;');
+	
 	$mailTo='g.perrier80@gmail.com';
-	$mailsubject=str_replace($filter,"",htmlspecialchars($_SESSION['sujet']));
-	$mailBody=str_replace($filter,"",htmlspecialchars($_SESSION['message']));
+	$mailsubject=strip_tags($_SESSION['sujet']);
+	$mailBody=strip_tags($_SESSION['message']);
 	$headers= 'From:'.$_SESSION['nom'].' <'.$_SESSION['email'].'>';
 	
 	if(mail($mailTo,$mailsubject,$mailBody,$headers)){
@@ -37,6 +37,6 @@ else{
 	}
 }
 
-header('location:index1.php#contact');
+header('location:index.php#contact');
 
 ?>
