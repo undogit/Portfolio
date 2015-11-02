@@ -139,7 +139,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                 et pédagogue afin de confirmer et développer mes acquis.</p>
         </div>
         <div id="about_civil" class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-            <img class="img-circle center-block img-responsive" width="250px" src="image/photo_cv.png"
+            <img class="img-circle center-block img-responsive" width="250" src="image/photo_cv.png"
                  alt="une photo de moi">
         </div>
     </section>
@@ -152,7 +152,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                     <div class="timeline-heading">
                         <a target="_blank" href="http://www.ecole-ipssi.com/">
                             <img class="timeline-image-right img-responsive" src="image/logoipformation.png"
-                                 width="150px" alt="logo Ipssi">
+                                 width="150" alt="logo Ipssi">
                         </a>
                         <h4 class="timeline-title">Formation Intensive Développeur Web PHP</h4>
 
@@ -176,7 +176,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                     <div class="timeline-heading">
                         <a target="_blank"
                            href="http://www.emweb.fr/formation-distance/integration-developpement/integrateur-developpeur-web.htm">
-                            <img class="timeline-image-right img-responsive" src="image/logo_emweb.png" width="150px"
+                            <img class="timeline-image-right img-responsive" src="image/logo_emweb.png" width="150"
                                  alt="logo Emweb">
                         </a>
                         <h4 class="timeline-title">Auto-formation Développeur Web</h4>
@@ -202,7 +202,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <a target="_blank" href="https://fr.wikipedia.org/wiki/Game_(entreprise)">
-                            <img class="timeline-image-right img-responsive" src="image/game-logo.gif" width="100px"
+                            <img class="timeline-image-right img-responsive" src="image/game-logo.gif" width="100"
                                  alt="logo Game">
                         </a>
                         <h4 class="timeline-title">Vendeur Spécialisé puis Assistant Manager GAME</h4>
@@ -229,7 +229,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                     <div class="timeline-heading">
                         <a target="_blank"
                            href="http://www.areva.com/FR/activites-1010/areva-romans-assemblages-combustibles-pour-les-racteurs-nuclaires.html">
-                            <img class="timeline-image-right img-responsive" src="image/logo_areva.png" width="100px"
+                            <img class="timeline-image-right img-responsive" src="image/logo_areva.png" width="100"
                                  alt="logo areva">
                         </a>
                         <h4 class="timeline-title">Technicien sur le site FBFC</h4>
@@ -245,7 +245,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                                 permettant la publication des résultats.
                             </li>
                             <li>Rédaction de la procédure et des fiches de poste liées au relevé des résultats dans le
-                                cadre de l’ISO 1400.
+                                cadre de l’ISO 14001.
                             </li>
                         </ul>
                     </div>
@@ -256,7 +256,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <a target="_blank" href="https://www.cesi-alternance.fr/centre/lyon/">
-                            <img class="timeline-image-right img-responsive" src="image/logo_cesi.png" width="150px"
+                            <img class="timeline-image-right img-responsive" src="image/logo_cesi.png" width="150"
                                  alt="logo CESI">
                         </a>
                         <h4 class="timeline-title">C.Q.P Technicien Supérieur HSE</h4>
@@ -281,7 +281,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                     <div class="timeline-heading">
                         <a target="_blank"
                            href="http://www.areva.com/FR/activites-1010/areva-romans-assemblages-combustibles-pour-les-racteurs-nuclaires.html">
-                            <img class="timeline-image-right img-responsive" src="image/logo_areva.png" width="100px"
+                            <img class="timeline-image-right img-responsive" src="image/logo_areva.png" width="100"
                                  alt="logo areva">
                         </a>
                         <h4 class="timeline-title">Assistant Méthode HSE sur le site
@@ -329,62 +329,62 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         <h2 class="text-center">Compétences</h2>
 
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_html.png" width="100px" alt="HTML5">
+            <img class="img-rounded center-block" src="image/logo_html.png" width="100" alt="HTML5">
 
             <p class="center-block text-center">HTML5</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_css.png" width="100px" alt="CSS3">
+            <img class="img-rounded center-block" src="image/logo_css.png" width="100" alt="CSS3">
 
             <p class="center-block text-center">CSS3</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_php.png" width="100px" alt="PHP">
+            <img class="img-rounded center-block" src="image/logo_php.png" width="100" alt="PHP">
 
             <p class="center-block text-center">PHP (Objet)</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_sql.png" width="100px" alt="MySQL">
+            <img class="img-rounded center-block" src="image/logo_sql.png" width="100" alt="MySQL">
 
             <p class="center-block text-center">MySQL</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_bootstrap.png" width="100px" alt="BOOSTRAP">
+            <img class="img-rounded center-block" src="image/logo_bootstrap.png" width="100" alt="BOOSTRAP">
 
             <p class="center-block text-center">Bootstrap</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_dreamwaver.png" width="100px" alt="Dreamwaver">
+            <img class="img-rounded center-block" src="image/logo_dreamwaver.png" width="100" alt="Dreamwaver">
 
             <p class="center-block text-center">Dreamweaver</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_photoshop.png" width="100px" alt="Photoshop">
+            <img class="img-rounded center-block" src="image/logo_photoshop.png" width="100" alt="Photoshop">
 
             <p class="center-block text-center">Photoshop</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_ubuntu.png" width="100px" alt="Ubuntu">
+            <img class="img-rounded center-block" src="image/logo_ubuntu.png" width="100" alt="Ubuntu">
 
             <p class="center-block text-center">Environnement Ubuntu</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_wordpress.png" width="100px" alt="Wordpress">
+            <img class="img-rounded center-block" src="image/logo_wordpress.png" width="100" alt="Wordpress">
 
             <p class="center-block text-center">Wordpress</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_eclipse.png" width="100px" alt="Eclipse">
+            <img class="img-rounded center-block" src="image/logo_eclipse.png" width="100" alt="Eclipse">
 
             <p class="center-block text-center">Eclipse</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_phpstorm.png" width="100px" alt="PHPstorm">
+            <img class="img-rounded center-block" src="image/logo_phpstorm.png" width="100" alt="PHPstorm">
 
             <p class="center-block text-center">PHPStorm</p>
         </div>
         <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6">
-            <img class="img-rounded center-block" src="image/logo_jquery.png" width="100px" alt="Jquery">
+            <img class="img-rounded center-block" src="image/logo_jquery.png" width="100" alt="Jquery">
 
             <p class="center-block text-center">Jquery</p>
         </div>
@@ -396,8 +396,8 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         <!-- Début MODAL -->
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="item">
-                <a href="#modal1"><img class="center-block img-responsive img-thumbnail"
-                                       src="./image/screen_handiworld.png"  width="450px"></a>
+                <a href="#modal1"><img alt="capture d'écran du site handiworld.org" class="center-block img-responsive img-thumbnail"
+                                       src="./image/screen_handiworld.png"  width="450"></a>
                 <h4 class="text-center">Association HandiwOrld</h4>
             </div>
         </div>
@@ -406,7 +406,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
             <h1>Refonte du site de l'association HandiwOrld</h1>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <img class="img-responsive center-block" src="./image/screen_handiworld.png" width="450px">
+                <img alt="capture d'écran du site handiworld.org" class="img-responsive center-block" src="./image/screen_handiworld.png" width="450">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <p class="text-justify">
@@ -442,8 +442,8 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         <!-- Début MODAL -->
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="item">
-                <a href="#modal2"><img class="center-block img-responsive img-thumbnail" src="./image/screen_ex_dream.png"
-                                       width="450px"></a>
+                <a href="#modal2"><img alt="capture d'écran de l'exercice dreamwaver" class="center-block img-responsive img-thumbnail" src="./image/screen_ex_dream.png"
+                                       width="450"></a>
                 <h4 class="text-center">Devoir d'intégration</h4>
             </div>
         </div>
@@ -452,7 +452,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
             <h1>Devoir d'intégration via Adobe dreamwaver CS6</h1>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <img class="img-responsive center-block" src="./image/screen_ex_dream.png" width="450px">
+                <img alt="capture d'écran de l'exercice dreamwaver" class="img-responsive center-block" src="./image/screen_ex_dream.png" width="450">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <p class="text-justify">
@@ -487,8 +487,8 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         <!-- Début MODAL -->
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="item">
-                <a href="#modal3"><img class="center-block img-responsive img-thumbnail" src="./image/integration_boostrap.png"
-                                       width="450px"></a>
+                <a href="#modal3"><img alt="capture d'écran de l'exercice bootstrap" class="center-block img-responsive img-thumbnail" src="./image/integration_boostrap.png"
+                                       width="450"></a>
                 <h4 class="text-center">Intégration Bootsrap</h4>
             </div>
         </div>
@@ -497,7 +497,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
             <h1>TP d'intégration avec Twitter Boostrap 3</h1>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <img class="img-responsive center-block" src="./image/integration_boostrap.png" width="450px">
+                <img alt="capture d'écran de l'exercice bootstrap" class="img-responsive center-block" src="./image/integration_boostrap.png" width="450">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <p class="text-justify">
@@ -526,7 +526,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="item">         
                 <a href="#modal4"><img class="center-block img-responsive img-thumbnail" src="./image/UnivacA.jpg"
-                                       width="450px"></a>
+                                       width="450"></a>
                 <h4 class="text-center">Mon portfolio</h4>
             </div>
         </div>
@@ -535,7 +535,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
             <h1>Mon portfolio</h1>
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-                <img class="img-responsive center-block" src="./image/UnivacA.jpg" width="450px">
+                <img class="img-responsive center-block" src="./image/UnivacA.jpg" width="450">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
                 <p class="text-justify">
@@ -563,7 +563,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
 
         <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
             <div class="hobbies">
-                <img src="image/basse.png" width="350px" class="center-block  img-responsive">
+                <img alt="moi en bassiste" src="image/basse.png" width="350" class="center-block  img-responsive">
                 <h4>Bassiste</h4>
 
                 <div class="clearfix"></div>
@@ -577,7 +577,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         </div>
         <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
             <div class="hobbies">
-                <img src="image/cinema.png" width="350px" class="center-block  img-responsive">
+                <img alt="une salle de cinema" src="image/cinema.png" width="350" class="center-block  img-responsive">
                 <h4>Cinéma</h4>
 
                 <div class="clearfix"></div>
@@ -591,7 +591,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         </div>
         <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-           <img src="image/bricolage.png" width="350px" class="center-block  img-responsive">
+           <img alt="Mac Gyver le roi des bricoleurs" src="image/bricolage.png" width="350" class="center-block  img-responsive">
             <h4>Bricolage</h4>
 
             <div class="clearfix"></div>
@@ -604,7 +604,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
     </div>
     <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-            <img src="image/brocante.png" width="350px" class="center-block  img-responsive">
+            <img alt="Louis la Brocante" src="image/brocante.png" width="350" class="center-block  img-responsive">
             <h4>Brocante</h4>
 
             <div class="clearfix"></div>
@@ -617,7 +617,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
     </div>
     <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-            <img src="image/science.png" width="350px" class="center-block  img-responsive">
+            <img alt="Laika le chien de l'espace" src="image/science.png" width="350" class="center-block  img-responsive">
             <h4>Science & technologie</h4>
 
             <div class="clearfix"></div>
@@ -629,7 +629,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
     </div>
     <div class="col-lg-4 col-xs-12 col-sm-6 col-md-4">
         <div class="hobbies">
-           <img src="image/videogame.png" width="350px" class="center-block  img-responsive">
+           <img alt="une famille très 80's devant sa console de jeux"src="image/videogame.png" width="350" class="center-block  img-responsive">
             <h4>Jeux vidéo</h4>
 
             <div class="clearfix"></div>
