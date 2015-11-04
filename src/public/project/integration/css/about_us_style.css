@@ -1,0 +1,305 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,300,500);
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+.test1{
+    border: double 2px red;
+}
+.test2{
+    border: dotted 1px blue;
+}
+h1,h2,h3{
+    color: #404040
+}
+h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+h1:after{
+    content: '^^^^';
+    display:block;
+    color:#358DBC ;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+h2{
+   font-size: 16px;
+    font-weight: bolder;
+}
+em{
+    font-style:normal;
+    font-weight: 900;
+}
+body{
+    font-family: 'Raleway',sans-serif;
+    background-color:#F3F3F3;
+    font-size: 20px;
+    color:#2f2f2f;
+}
+header {
+    background-color: #FCFCFC;
+    padding: 25px 0;
+}
+header div{
+    font-size:28px ;
+
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+#what, #company{
+    background-color: #FCFCFC;
+}
+#what .col-lg-3 {
+   color: white;
+   padding-left: 20px;
+}
+#what .col-lg-3 div {
+
+    padding-bottom: 30px;
+}
+#what .col-lg-3 h2 {
+    color: #ffffff;
+}
+#what .col-lg-3 .fa{
+    padding-top: 20px;
+    display: block;
+    font-size: 50px;
+}
+#blue{
+    background-color:#67B7D4;
+}
+#pink{
+    background-color:#EF6578;
+}
+#green{
+    background-color:#53CFC2;
+}
+#yellow{
+    background-color:#F5AE56;
+}
+#customers .col-lg-6{
+padding: 0 20px;
+}
+#customers blockquote{
+    border: none;
+    border-bottom: solid 1px #c0c0c0 ;
+    background-color: white;
+}
+#customers blockquote p{
+    color:#9a9a9a;
+}
+#customers blockquote p:before{
+    content: '"';
+    font-size: 80px;
+    color:#c0c0c0;
+    float: left;
+    font-family: 'Lily Script One', cursive;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.cust_name{
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.cust_job{
+    text-transform: uppercase;
+    color: #c0c0c0;
+    font-size: 15px;
+}
+#letsmake{
+    margin-top: 0;
+    padding-top:0 ;
+    padding-bottom: 0;
+    height: 400px;
+    background-image: url("../images/banner.png");
+ }
+#letsmake h1, #letsmake h1:after{
+    color: #ffffff;
+}
+#letsmake .btn-default {
+    background-image: none;
+    background-color: transparent;
+    text-shadow: none;
+    color: white;
+    border-radius: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#letsmake .btn-default:hover {
+    background-color: #ffffff;
+    color: #2f2f2f;
+    transition: all 300ms ease-in 0s;
+}
+#company progress{
+    -moz-appearance:none;
+    -ms-progress-appearance:none ;
+    -webkit-appearance: none;
+    border:solid 1px #358DBC;
+    width: 100%;
+    background-color: transparent;
+}
+#company progress::-webkit-progress-bar{
+    background-color: #358DBC;
+}
+#company progress::-moz-progress-bar{
+    background-color: #358DBC;
+}
+#company progress::-ms-fill{
+    background-color: #358DBC;
+}
+#company ul:first-child li{
+    border:solid 3px #358DBC;
+    font-weight: bold;
+}
+#company ul:first-child li:hover{
+    background-color:#358DBC;
+}
+#company ul:first-child li:hover a{
+    color:#FCFCFC;
+}
+#stat .fa{
+    font-size: 50px;
+    color:#358DBC;
+    display: block;
+}
+#stat .col-lg-3 p{
+    font-size: 15px;
+    font-weight: 200;
+    color: ;
+}
+#stat .col-lg-3 p:first-of-type{
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:#262B2F;
+    color: #c0c0c0;
+    font-size: 15px;
+
+}
+footer h2, footer h3{
+    color: #ffffff;
+    font-weight: 600;
+}
+footer h2{
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+footer h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0;
+}
+footer ul:first-of-type{
+    list-style: none;
+    padding: 0;
+}
+#post li{
+    padding: 0 10px 10px 0;
+}
+.form-control{
+    background-color:#1E2226;
+    border-radius:0;
+    border:none;
+}
+.btn-default {
+    background-image: none;
+    border-radius: 0;
+    text-shadow:0;
+    background-color:#358DBC;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: none;
+    margin-left: -3px;
+    font-size: 15px;
+    border: none;
+}
+address{
+    margin-bottom: 10px;
+}
+footer #tag li{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:#1E2226;
+}
+footer #tag li:before{
+    content:".";
+    font-family: 'Lily Script One', cursive;
+    font-size: 20px;
+}
+#bottom_bar{
+    background-color: #21262A;
+}
+#bottom_bar .container {
+    padding:15px 0;
+}
+#bottom_bar p{
+    color:#ffffff;
+    font-size: 15px;
+}
+#bottom_bar a{
+    border: 2px solid;
+    border-radius: 100%;
+    font-size: 15px;
+}
+#bottom_bar .fa{
+    padding: 5px;
+}
+#bottom_bar .fa-rss, #bottom_bar a:nth-child(1){
+    color: #FAAA5E;
+    border-color:#FAAA5E;
+}
+#bottom_bar .fa-twitter, #bottom_bar a:nth-child(2){
+    color: #70C2E9;
+    border-color:#70C2E9;
+}
+#bottom_bar .fa-facebook-f, #bottom_bar a:nth-child(3){
+    color: #677FB5;
+    border-color:#677FB5;
+}
+#bottom_bar .fa-pinterest-p , #bottom_bar a:nth-child(4){
+    color: #D8545D;
+    border-color:#D8545D;
+}
+#bottom_bar .fa-linkedin , #bottom_bar a:nth-child(5){
+    color:#3DACCF;
+    border-color:#3DACCF;
+}
+#contact{
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+@media (max-width: 991px){
+    #what .col-lg-3 {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #blue, #pink, #yellow, #green{
+        border-radius: 100%;
+    }
+    #company ul:first-child li{
+        font-size: 14px;
+    }
+
+
+}

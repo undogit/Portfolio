@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><h2>Siège Social</h2>   
+     <div class="vcard">
+ 		<div class="org">Patacrahouzette</div>
+    	
+ 		<div class="street-address">3 Avenue des champs Elysées</div>
+        <span class="locality">Paris</span>
+        <span class="postal-code">75008</span>
+		<span class="country-name">France</span>
+ 		<div class="tel">09 08 07 06 05</div>
+        <a class="email" href="mailto:lorem@ispum.fr">pata@crahouzette.fr</a>
+</div>
+    <div class="article">
+    	
+        	<h2>Nous rendre visite...</h2>
+     
+            <iframe id="gmap" width="500" height="350" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2624.4204424487953!2d2.3091644!3d48.869261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc4fe4a11fb%3A0x98028a710afed94b!2s3+Avenue+des+Champs-%C3%89lys%C3%A9es!5e0!3m2!1sfr!2sfr!4v1401977631640"></iframe><br />
+    </div>
