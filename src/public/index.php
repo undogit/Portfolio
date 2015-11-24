@@ -707,8 +707,9 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         </div>
 
         <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18719.842780953597!2d4.821994061538091!3d45.77677581374906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eae3d26d321d%3A0xc3fbfd08f15dfb9d!2sRue+du+Chariot+d&#39;Or%2C+69004+Lyon!5e0!3m2!1sfr!2sfr!4v1445692390639"
-                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18719.842780953597!2d4.821994061538091!3d45.77677581374906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eae3d26d321d%3A0xc3fbfd08f15dfb9d!2sRue+du+Chariot+d&#39;Or%2C+69004+Lyon!5e0!3m2!1sfr!2sfr!4v1445692390639"
+                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+            <div id="map-canvas"></div>
         </div>
     </div>
 </section>
@@ -736,8 +737,9 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
 <script src="js/scrolling-nav.js"></script>
 <!--Remodal Javacript-->
 <script src="js/remodal.js"></script>
-
-
+<!--Gmap perso API-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCStlHZghPry0YyY952Q2NI31aJGjopC00&;sensor=FALSE"></script>
+<script src="js/jsonmap.js"></script>
 </body>
 
 </html>

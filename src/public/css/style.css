@@ -279,10 +279,8 @@ section {
 #contact .form-control:focus{
 border-color: #ce7638;
 box-shadow: inset 0 1px 1px #ce7638, 0 0 8px #ce7638;
-	
-	
-	
 }
+
 #contact #submit{
     background-color: rgba(242, 138, 34, 0.9);
     border-color: #ce5c00;
@@ -304,8 +302,30 @@ footer a:hover{
 }
 #info iframe{
     width: 100%;
+
+}
+#map-canvas {
+    width: 100%;
+    height: 400px;
     margin-bottom:25px;
 }
+/*#map-canvas .gm-style img:last-of-type{
+    visibility: hidden;
+}*/
+#map-canvas div.gmnoprint,
+#map-canvas div.gmnoscreen {
+    display: none;
+}
+
+img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"] {
+    display: none;
+}
+/*.gmnoprint{
+    visibility: hidden;
+
+
+}*/
+
 #info .fa-mobile{
     font-size: 2em;
 }
