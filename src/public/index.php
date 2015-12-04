@@ -315,6 +315,11 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                 <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
+                        <a target="_blank"
+                           href="http://www.educagri.fr/index.php?id=1814&num=1231">
+                            <img class="timeline-image-right img-responsive" src="image/logo_lycee.png" width="100"
+                                 alt="logo lycée">
+                        </a>
                         <h4 class="timeline-title">BAC STAE</h4>
 
                         <p>
