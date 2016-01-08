@@ -36,7 +36,7 @@ session_destroy();
 
 
 <!DOCTYPE html>
-<html lang="FR">
+<html lang="FR" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
@@ -136,14 +136,14 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
         <div id="about_text" class="col-lg-9 col-sm-12 col-xs-12 col-md-9">
             <h2 class="text-center">A propos de moi... </h2>
 
-            <p> Riche d’une expérience professionnelle variée, je souhaite poursuivre ma formation de développeur
-                Web.<br>
-                Passionné d’informatique et actuellement inscrit au centre IP Formation de Lyon, je dispose de bonnes
-                bases en matière de langages web et désire intégrer une structure afin de parfaire et valider mes
-                connaissances via un contrat
-                en alternance.<br>
-                Aussi, je mets à disposition mes capacités d’écoute et d’analyse au service d’une équipe créative
-                et pédagogue afin de confirmer et développer mes acquis.</p>
+            <p> A l’issu de ma formation intensive de Développeur Web PHP et étant inscrit en
+                cursus de niveau II (Bac+4) au sein de l’école IPSSI , je suis actuellement à la
+                recherche d’un contrat d’apprentissage pour la rentrée 2016, à partir du mois de
+                janvier, pour une durée de 24 mois.<br>
+                Fort d’une expérience professionnelle variée et d’un bon esprit d’analyse, je suis
+                déterminé à me former rapidement et efficacement.<br>
+                Dans ce but, je suis prêt à m’investir totalement de façon à mener à bien et de façon
+                autonome les tâches qui me seront confiées.</p>
         </div>
         <div id="about_civil" class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <img class="img-circle center-block img-responsive" width="250" src="image/photo_cv.png"
@@ -705,7 +705,7 @@ Aussi, je mets à disposition mes capacités d’écoute et d’analyse au servi
                 <li><i class="fa fa-comment"></i><span>Anglais lu, écrit, parlé</span></li>
                 <li><i class="fa fa-comment"></i><span>Notions d'espagnol</span></li>
                 <li><i class="cv_color fa fa-file-pdf-o"></i>
-                <a target="_blank" href="cv/CV_PGuillaume.pdf">Télécharger mon CV</a></li>
+                <a target="_blank" href="cv/P_guillaume.pdf">Télécharger mon CV</a></li>
             </ul>
 
 
